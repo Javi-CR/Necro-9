@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Niveles/Loading.unity
     guid: e058aa534dfc16542a4d645b2729dad5
+  - enabled: 1
+    path: Assets/Niveles/GameOver.unity
+    guid: ab12a75f8f0f2d3498f0cac5956543a0
+  - enabled: 1
+    path: Assets/Niveles/Victoria.unity
+    guid: 825639157f4fd164aa5ac666249c945d
   m_configObjects: {}
