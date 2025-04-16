@@ -53,8 +53,6 @@ public class Enemigo1 : MonoBehaviour
         }
         else
         {
-            if (Vector3.Distance(transform.position, target.transform.position) > 1 && !atacando)
-            {
                 var lookPos = target.transform.position - transform.position;
                 lookPos.y = 0;
                 var rotation = Quaternion.LookRotation(lookPos);
@@ -64,23 +62,7 @@ public class Enemigo1 : MonoBehaviour
                 ani.SetBool("run", true);
                 transform.Translate(Vector3.forward * 9 * Time.deltaTime);
 
-                ani.SetBool("attack", false);
-            }
-            else
-            {
-                ani.SetBool("walk", false);
-                ani.SetBool("run", false);
-
-                ani.SetBool("attack", true);
-                atacando = true;
-            }
         }
-    }
-
-    public void Final_Ani()
-    {
-        ani.SetBool("attack", false);
-        atacando = false;
     }
 
     // Update is called once per frame
