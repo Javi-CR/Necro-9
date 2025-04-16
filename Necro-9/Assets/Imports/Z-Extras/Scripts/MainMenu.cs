@@ -52,7 +52,7 @@ public class MainMenu : MonoBehaviour
         // Verificar si existe la clase LevelLoader
         try
         {
-            LevelLoader.LoadLevel("Nivel 1");
+            LevelLoader.LoadLevel("Nivel 2");
         }
         catch (System.Exception e)
         {
