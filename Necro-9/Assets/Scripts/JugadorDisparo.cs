@@ -28,4 +28,7 @@ public class JugadorDisparo : MonoBehaviour
         Rigidbody rb = bala.GetComponent<Rigidbody>();
         rb.velocity = puntoDisparo.forward * fuerzaDisparo;
     }
+
+
+
 }
