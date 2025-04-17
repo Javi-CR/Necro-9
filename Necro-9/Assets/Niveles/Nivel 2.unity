@@ -818,6 +818,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &43341965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43341958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &46550683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1527,6 +1540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -1609,6 +1627,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &60650524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60650519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &61083938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2672,6 +2703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -2754,6 +2790,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &105971185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105971180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &114391171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3145,6 +3194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -3227,6 +3281,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &122141418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122141413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &123954654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4140,6 +4207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!1001 &153531664
@@ -4486,6 +4558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!1001 &163562320
@@ -4569,6 +4646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -5112,6 +5194,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1801348573}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &194912079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194912072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &202910822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5959,6 +6054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -6041,6 +6141,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &241269360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241269355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &241382054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6957,6 +7070,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &283889224 stripped
@@ -7055,6 +7173,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &283889231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283889225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &289122348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7226,6 +7357,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &289397732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289397725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &292512129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7772,6 +7916,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &317437404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317437397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &317726424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9364,6 +9521,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -9446,6 +9608,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &410248237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410248232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &412770250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9768,6 +9943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -9850,6 +10030,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &436288675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436288670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &440589324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10622,6 +10815,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &480975800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480975793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &483993066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11784,6 +11990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &533376492 stripped
@@ -12339,6 +12550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -12421,6 +12637,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &549194825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549194820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &553999732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12803,6 +13032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -12885,6 +13119,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &566261673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566261668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &570858344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13267,6 +13514,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -13349,6 +13601,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &595325238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595325233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &597817690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13881,6 +14146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!1001 &635780135
@@ -14054,6 +14324,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &640166531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640166524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &642202611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14729,7 +15012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cb13f8fc38ddd489c5ae09c38341e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balaPrefab: {fileID: 1912636242}
+  balaPrefab: {fileID: 1627371272548201273, guid: 4b6d6dfca037dec46869c5e4354caa7a,
+    type: 3}
   puntoDisparo: {fileID: 1158575304}
   fuerzaDisparo: 25
   tiempoEntreDisparos: 0.2
@@ -15469,6 +15753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &725336579 stripped
@@ -15567,6 +15856,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &725336586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725336580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &733352119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17082,6 +17384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &788696382 stripped
@@ -17180,6 +17487,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &788696389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788696383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &789150646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17712,6 +18032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &808345701 stripped
@@ -17810,6 +18135,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &808345708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808345702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &809383211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18042,6 +18380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -18124,6 +18467,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &814824029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814824024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &815657294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18610,6 +18966,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &826384544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826384537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1 &826777728
 GameObject:
   m_ObjectHideFlags: 0
@@ -20484,6 +20853,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -20566,6 +20940,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &890738468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890738463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &893269433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21390,6 +21777,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &915915287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915915280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &919189794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21711,6 +22111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -23146,6 +23551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -23228,6 +23638,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &991694620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991694615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1009354813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23459,6 +23882,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -24308,6 +24736,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -24390,6 +24823,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1046831659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046831654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1047040386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25155,6 +25601,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 50
   Player: {fileID: 678576800}
+--- !u!114 &1071326908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071326902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1071347631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25236,6 +25695,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PrisonerZombie (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
@@ -25319,6 +25783,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1071347638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071347633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1073446626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25776,6 +26253,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -25858,6 +26340,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1089370650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089370645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1089686825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26780,6 +27275,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -26862,6 +27362,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1138035705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138035700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1140558703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27500,6 +28013,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -27582,6 +28100,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1161954993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161954988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1164730927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29282,6 +29813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -29364,6 +29900,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1243702010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243702005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1247627038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29535,6 +30084,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1250108767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250108760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1257404281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32004,6 +32566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -32086,6 +32653,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1344481999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344481994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1346911905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32167,6 +32747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PrisonerZombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
@@ -32421,6 +33006,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1359585298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359585291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1360229502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32578,6 +33176,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -32660,6 +33263,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1363933890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363933885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1369741533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32741,6 +33357,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -32840,6 +33461,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1369741541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369741535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1380241422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33161,6 +33795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -33485,6 +34124,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1408439352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408439345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1413457976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34235,6 +34887,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -34317,6 +34974,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1446987169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446987164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1449461466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35073,6 +35743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -35984,6 +36659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &1515585783 stripped
@@ -36082,6 +36762,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1515585790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515585784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1516300040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36314,6 +37007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &1519749745 stripped
@@ -36412,6 +37110,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1519749752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519749746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1524713761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36793,6 +37504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -37403,6 +38119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &1561008928 stripped
@@ -37501,6 +38222,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1561008935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561008929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1564635254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37582,6 +38316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PrisonerZombie (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
@@ -37665,6 +38404,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1564635261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564635256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1566369670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38048,6 +38800,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -38130,6 +38887,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1575957996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575957991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1577001117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38629,6 +39399,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1346911905}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1599264821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599264814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1602241942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40615,6 +41398,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1698600275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698600268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1703429371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41762,6 +42558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!1001 &1761575498
@@ -42901,6 +43702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CopZombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
@@ -44303,6 +45109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombiegirl idle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
 --- !u!4 &1883899388 stripped
@@ -44401,6 +45212,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1883899395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883899389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1884140261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45083,6 +45907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -45165,12 +45994,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &1912636242 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1627371272548201273, guid: 13baa84c1e1d1a947b83be48df67fabd,
-    type: 3}
-  m_PrefabInstance: {fileID: 114391171}
+--- !u!114 &1912471000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912470995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!4 &1912636243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9033737163188573533, guid: 13baa84c1e1d1a947b83be48df67fabd,
@@ -45453,6 +46289,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -45535,6 +46376,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1917315481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917315476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1920787389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46607,6 +47461,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrisonerZombie (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f817da8f4966e429b2cca09aac1900,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f9f817da8f4966e429b2cca09aac1900,
         type: 3}
       propertyPath: m_Controller
@@ -46689,6 +47548,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1952470431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952470426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1960465993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46845,6 +47717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -47155,6 +48032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -47237,6 +48119,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1985641124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985641119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &1986576885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47558,6 +48453,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1995263429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995263422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &2007852192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47939,6 +48847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombiegirl idle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0275b860dd52f5848be7a9fcfed54a85,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0275b860dd52f5848be7a9fcfed54a85, type: 3}
@@ -49000,6 +49913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -49082,6 +50000,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2063782450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063782445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &2064493108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49483,6 +50414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CopZombie (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a7fda68d4a26cb44bc37aefab995f5e,
         type: 3}
       propertyPath: m_Controller
@@ -49565,6 +50501,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2094488394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094488389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a66b2fa16ba734d9392b99142e3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaZombie: 100
 --- !u!1001 &2099224637
 PrefabInstance:
   m_ObjectHideFlags: 0

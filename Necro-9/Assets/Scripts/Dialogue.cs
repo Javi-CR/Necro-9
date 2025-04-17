@@ -19,7 +19,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (dialogueText.text == lines[index])
             {
@@ -59,13 +59,13 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            EndDialogue(); // Llama al final
+            EndDialogue();
         }
     }
 
     void EndDialogue()
     {
         dialogueText.text = string.Empty;
-        gameObject.SetActive(false); // ← Esto oculta el panel/caja de diálogo
+        gameObject.SetActive(false);
     }
 }

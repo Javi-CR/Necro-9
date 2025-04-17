@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5719857668169187217}
   - component: {fileID: 5702457015992006963}
   - component: {fileID: 3901388164274866879}
+  - component: {fileID: -7375960332322117322}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1627371272548201273}
   m_LocalRotation: {x: -0, y: 0.00000006705521, z: -0.018976193, w: 0.99982}
   m_LocalPosition: {x: -46.79969, y: -6.0999994, z: -0.00023126602}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -128,3 +129,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000004, y: 1.0000006, z: 1.0000007}
   m_Center: {x: 0.00018310547, y: 0.00012207031, z: 0}
+--- !u!114 &-7375960332322117322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627371272548201273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69927aeee1749bb449e24fd156c80dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "da\xF1o": 10
+  tiempoVida: 3
