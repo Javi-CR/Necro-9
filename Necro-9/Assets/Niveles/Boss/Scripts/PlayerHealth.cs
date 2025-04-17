@@ -1,5 +1,6 @@
 using UnityEngine;
-using UnityEngine.UI; // Para UI si decides añadir una barra de salud
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,8 +10,14 @@ public class PlayerHealth : MonoBehaviour
     // Opcional: Para mostrar la salud en UI
     public Slider healthSlider;
 
-    // Opcional: Efecto cuando el jugador recibe daño
-    public GameObject damageEffect;
+    // Pantalla de Game Over
+    public GameObject gameOverScreen;
+
+    // Tiempo antes de reiniciar la escena
+    public float respawnTime = 5f;
+
+    // Controla si el jugador está muerto
+    private bool isDead = false;
 
     void Start()
     {
@@ -22,10 +29,20 @@ public class PlayerHealth : MonoBehaviour
             healthSlider.maxValue = maxHealth;
             healthSlider.value = currentHealth;
         }
+
+        // Asegurarse de que la pantalla Game Over esté desactivada al inicio
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(false);
+        }
     }
 
     public void TakeDamage(int damage)
     {
+        // No procesar daño si ya está muerto
+        if (isDead)
+            return;
+
         currentHealth -= damage;
         Debug.Log("Jugador recibió " + damage + " de daño. Salud restante: " + currentHealth);
 
@@ -35,35 +52,44 @@ public class PlayerHealth : MonoBehaviour
             healthSlider.value = currentHealth;
         }
 
-        // Mostrar efecto si existe
-        if (damageEffect != null)
-        {
-            Instantiate(damageEffect, transform.position, Quaternion.identity);
-        }
-
         if (currentHealth <= 0)
         {
-            Die();
+            GameOver();
         }
     }
 
-    void Die()
+    void GameOver()
     {
-        Debug.Log("El jugador ha muerto");
+        // Evitar llamadas múltiples
+        if (isDead)
+            return;
 
-        // Implementa aquí lo que sucede cuando el jugador muere
-        // Por ejemplo:
-        // 1. Mostrar pantalla de game over
-        // 2. Reiniciar nivel
-        // 3. Animación de muerte
+        isDead = true;
+        Debug.Log("Game Over");
 
-        // Por ahora, simplemente desactivamos el GameObject
-        gameObject.SetActive(false);
+        // Mostrar pantalla de Game Over
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(true);
+        }
+
+        // Programar el reinicio de la escena después de X segundos
+        Invoke("RestartScene", respawnTime);
     }
 
-    // Método para curar al jugador (si necesitas añadir power-ups de salud)
+    void RestartScene()
+    {
+        // Recargar la escena actual
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // Método para curar al jugador
     public void Heal(int amount)
     {
+        // No curar si está muerto
+        if (isDead)
+            return;
+
         currentHealth += amount;
 
         // Evitar que supere la salud máxima
