@@ -1,4 +1,4 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 
@@ -13,7 +13,7 @@ public class BossController : MonoBehaviour
     public float specialAttackRange = 5f;
     public GameObject bossArena;
 
-    [Header("EstadÌsticas")]
+    [Header("Estad√≠sticas")]
     public int maxHealth = 1000;
     public int currentHealth;
     public float moveSpeed = 3.5f;
@@ -41,10 +41,10 @@ public class BossController : MonoBehaviour
 
     private void Start()
     {
-        // InicializaciÛn
+        // Inicializaci√≥n
         currentHealth = maxHealth;
 
-        // Obtener componentes si no est·n asignados
+        // Obtener componentes si no est√°n asignados
         if (agent == null)
             agent = GetComponent<NavMeshAgent>();
 
@@ -55,7 +55,7 @@ public class BossController : MonoBehaviour
         if (player == null)
             player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        // Hash IDs para optimizar la comunicaciÛn con el Animator (usando bool)
+        // Hash IDs para optimizar la comunicaci√≥n con el Animator (usando bool)
         isIdleHash = Animator.StringToHash("IsIdle");
         isWalkingHash = Animator.StringToHash("IsWalking");
         isRunningHash = Animator.StringToHash("IsRunning");
@@ -66,7 +66,7 @@ public class BossController : MonoBehaviour
         // Configurar el NavMeshAgent
         agent.speed = moveSpeed;
         agent.stoppingDistance = attackRange - 0.5f;
-        agent.autoBraking = false;  // Desactivar auto-braking para movimiento m·s fluido
+        agent.autoBraking = false;  // Desactivar auto-braking para movimiento m√°s fluido
 
         // Establecer estado inicial
         SetAnimationState(isIdleHash);
@@ -77,7 +77,7 @@ public class BossController : MonoBehaviour
         Debug.Log("Boss inicializado. Player tag: " + (player != null ? player.tag : "Player no encontrado"));
     }
 
-    // MÈtodo para forzar el movimiento (prueba)
+    // M√©todo para forzar el movimiento (prueba)
     private void ForceMove()
     {
         if (player != null)
@@ -97,7 +97,7 @@ public class BossController : MonoBehaviour
     {
         if (isDead) return;
 
-        // Verificar si el jugador est· en la arena
+        // Verificar si el jugador est√° en la arena
         CheckPlayerInArena();
 
         // Mostrar estado en consola
@@ -108,7 +108,7 @@ public class BossController : MonoBehaviour
         {
             float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-            // LÛgica de comportamiento con logs
+            // L√≥gica de comportamiento con logs
             if (distanceToPlayer <= attackRange && canAttack)
             {
                 Debug.Log("BOSS: Iniciando ataque normal. Distancia: " + distanceToPlayer);
@@ -129,7 +129,7 @@ public class BossController : MonoBehaviour
                 // Esperar - Idle
                 agent.isStopped = true;
                 SetAnimationState(isIdleHash);
-                Debug.Log("BOSS: En idle - jugador fuera de rango de detecciÛn");
+                Debug.Log("BOSS: En idle - jugador fuera de rango de detecci√≥n");
             }
         }
         else
@@ -140,7 +140,7 @@ public class BossController : MonoBehaviour
         }
     }
 
-    // MÈtodo para establecer estado de animaciÛn (desactiva todos los dem·s)
+    // M√©todo para establecer estado de animaci√≥n (desactiva todos los dem√°s)
     private void SetAnimationState(int activeStateHash)
     {
         // Desactivar todos los estados
@@ -160,7 +160,7 @@ public class BossController : MonoBehaviour
         // playerInArena = true;
         // return;
 
-        // Enfoque m·s directo y confiable para detectar al jugador en la arena
+        // Enfoque m√°s directo y confiable para detectar al jugador en la arena
         if (player != null && bossArena != null)
         {
             float distanceToArenaCenter = Vector3.Distance(player.position, bossArena.transform.position);
@@ -171,7 +171,7 @@ public class BossController : MonoBehaviour
 
             if (playerInArena != wasInArena)
             {
-                Debug.Log("Jugador " + (playerInArena ? "entrÛ a" : "saliÛ de") + " la arena. Distancia: " +
+                Debug.Log("Jugador " + (playerInArena ? "entr√≥ a" : "sali√≥ de") + " la arena. Distancia: " +
                           distanceToArenaCenter + ", Radio arena: " + arenaRadius);
             }
         }
@@ -186,7 +186,7 @@ public class BossController : MonoBehaviour
 
     private void ChasePlayer(float distance)
     {
-        // Asegurarse de que el agente no estÈ detenido
+        // Asegurarse de que el agente no est√© detenido
         agent.isStopped = false;
 
         // Establecer el destino
@@ -196,7 +196,7 @@ public class BossController : MonoBehaviour
                   ", Velocidad: " + agent.speed +
                   ", Destino: " + agent.destination);
 
-        // Seleccionar animaciÛn seg˙n distancia
+        // Seleccionar animaci√≥n seg√∫n distancia
         if (distance > detectionRadius / 2)
         {
             agent.speed = runSpeed;
@@ -222,25 +222,25 @@ public class BossController : MonoBehaviour
         // Mirar al jugador
         transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
 
-        // Establecer animaciÛn de ataque
+        // Establecer animaci√≥n de ataque
         SetAnimationState(isAttacking1Hash);
 
-        // Esperar a que la animaciÛn llegue al punto de impacto
+        // Esperar a que la animaci√≥n llegue al punto de impacto
         yield return new WaitForSeconds(0.5f);
 
-        // Detectar si el jugador est· en rango de daÒo
+        // Detectar si el jugador est√° en rango de da√±o
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
         if (distanceToPlayer <= attackRange + 0.5f)
         {
-            // Aplicar daÒo al jugador
+            // Aplicar da√±o al jugador
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
             if (playerHealth != null)
                 playerHealth.TakeDamage(attackDamage);
 
-            Debug.Log("BOSS: GolpeÛ al jugador con ataque normal por " + attackDamage + " de daÒo");
+            Debug.Log("BOSS: Golpe√≥ al jugador con ataque normal por " + attackDamage + " de da√±o");
         }
 
-        // Esperar a que termine la animaciÛn
+        // Esperar a que termine la animaci√≥n
         yield return new WaitForSeconds(0.5f);
 
         // Volver a Idle
@@ -263,25 +263,25 @@ public class BossController : MonoBehaviour
         // Mirar al jugador
         transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
 
-        // Establecer animaciÛn de ataque especial
+        // Establecer animaci√≥n de ataque especial
         SetAnimationState(isAttacking2Hash);
 
-        // Esperar a que la animaciÛn llegue al punto de impacto
+        // Esperar a que la animaci√≥n llegue al punto de impacto
         yield return new WaitForSeconds(0.7f);
 
-        // Detectar si el jugador est· en rango de daÒo
+        // Detectar si el jugador est√° en rango de da√±o
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
         if (distanceToPlayer <= specialAttackRange + 0.5f)
         {
-            // Aplicar daÒo al jugador
+            // Aplicar da√±o al jugador
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
             if (playerHealth != null)
                 playerHealth.TakeDamage(specialAttackDamage);
 
-            Debug.Log("BOSS: GolpeÛ al jugador con ataque especial por " + specialAttackDamage + " de daÒo");
+            Debug.Log("BOSS: Golpe√≥ al jugador con ataque especial por " + specialAttackDamage + " de da√±o");
         }
 
-        // Esperar a que termine la animaciÛn
+        // Esperar a que termine la animaci√≥n
         yield return new WaitForSeconds(0.5f);
 
         // Volver a Idle
@@ -298,7 +298,7 @@ public class BossController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
-        Debug.Log("BOSS: RecibiÛ " + damage + " de daÒo. Salud restante: " + currentHealth);
+        Debug.Log("BOSS: Recibi√≥ " + damage + " de da√±o. Salud restante: " + currentHealth);
 
         // Si el boss muere
         if (currentHealth <= 0)
@@ -318,17 +318,17 @@ public class BossController : MonoBehaviour
         if (GetComponent<Collider>() != null)
             GetComponent<Collider>().enabled = false;
 
-        // Reproducir animaciÛn de muerte
+        // Reproducir animaci√≥n de muerte
         SetAnimationState(isDeadHash);
 
-        // DespuÈs de la muerte
-        Destroy(gameObject, 5f); // Destruir despuÈs de 5 segundos
+        // Despu√©s de la muerte
+        Destroy(gameObject, 7f); // Destruir despu√©s de 5 segundos
     }
 
-    // MÈtodo para visualizar el rango de detecciÛn y ataque en el editor
+    // M√©todo para visualizar el rango de detecci√≥n y ataque en el editor
     private void OnDrawGizmosSelected()
     {
-        // Dibujar radio de detecciÛn
+        // Dibujar radio de detecci√≥n
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
 
@@ -340,4 +340,18 @@ public class BossController : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, specialAttackRange);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Bala"))
+        {
+            Bala bala = other.GetComponent<Bala>();
+            int damage = bala != null ? bala.damage : 10;
+
+            TakeDamage(damage);
+            Destroy(other.gameObject);
+        }
+    }
+
+
 }
