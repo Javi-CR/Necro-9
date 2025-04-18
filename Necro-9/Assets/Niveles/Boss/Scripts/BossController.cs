@@ -321,9 +321,20 @@ public class BossController : MonoBehaviour
         // Reproducir animación de muerte
         SetAnimationState(isDeadHash);
 
-        // Después de la muerte
-        Destroy(gameObject, 7f); // Destruir después de 5 segundos
+        // Iniciar corrutina para cargar el nivel tras 5 segundos
+        StartCoroutine(HandleDeath());
     }
+
+    private IEnumerator HandleDeath()
+    {
+        // Esperar 5 segundos antes de continuar
+        yield return new WaitForSeconds(4f);
+
+        // Cargar el nivel de victoria
+        LevelLoader.LoadLevel("Victoria");
+
+    }
+
 
     // Método para visualizar el rango de detección y ataque en el editor
     private void OnDrawGizmosSelected()

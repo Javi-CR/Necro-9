@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Niveles/Menu.unity
     guid: de2290f297d43814d8f96eff5e0e1370
   - enabled: 1
+    path: Assets/Niveles/Loading.unity
+    guid: e058aa534dfc16542a4d645b2729dad5
+  - enabled: 1
+    path: Assets/Niveles/Victoria.unity
+    guid: 825639157f4fd164aa5ac666249c945d
+  - enabled: 1
     path: Assets/Niveles/Nivel 1.unity
     guid: 276b32b1fa1791342a41e3e8ffeeb06c
   - enabled: 1
@@ -20,13 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Niveles/Nivel 3.unity
     guid: 6c5df338bf86f2f419c555fbea020393
-  - enabled: 1
-    path: Assets/Niveles/Loading.unity
-    guid: e058aa534dfc16542a4d645b2729dad5
-  - enabled: 1
-    path: Assets/Niveles/Victoria.unity
-    guid: 825639157f4fd164aa5ac666249c945d
-  - enabled: 1
-    path: Assets/Niveles/GameOver.unity
-    guid: 1940b52bfebc766429d876b62d7cd9ab
   m_configObjects: {}
